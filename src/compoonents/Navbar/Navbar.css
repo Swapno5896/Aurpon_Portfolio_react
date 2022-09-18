@@ -1,0 +1,14 @@
+.Brand_name{
+ padding-left: 15%;
+ font-size: 30px;
+ font-weight: 600;
+    
+}
+.nav-item a{
+    font-weight: 700;
+}
+@media (min-width: 576px) { 
+    .links{
+        padding-right: 10%;
+    }
+ }

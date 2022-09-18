@@ -1,0 +1,18 @@
+.smallContact-container{
+     margin-bottom: 135px;
+}
+.SmallContact-img{
+    width: 600px;
+}
+
+.SmallContact-text h2{
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 2.6;
+}
+.SmallContact-text p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.6;
+}
+

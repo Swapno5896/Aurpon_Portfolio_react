@@ -1,0 +1,26 @@
+.topbanner-container{
+    background-image: url('../../images/beautiful-places-visit-Calgary-Canada-2.jpg');
+    background-repeat: no-repeat;
+
+    height: 537px;
+    opacity: 0.63;
+    background-color: black;
+    
+}
+.topbanner-text-start{
+    padding-top: 70px;
+}
+.topbanner-image {
+    height: 397px;
+    width: 460px;
+}
+
+.topbanner-gretting {
+    font-size: 58px;
+    font-weight: 600;
+    color: aquamarine;
+}
+.topbanner-sub-dis{
+    font-size: 30px;
+    color: rgb(0, 255, 255);
+}
