@@ -1,0 +1,22 @@
+.blogSearch-input{
+    
+    
+    padding: 11px 46%;
+    border-radius: 10px;
+}
+.serch-options {
+height: 200px;
+padding-top: 35px;
+}
+.serch-options span{
+    margin-right: 13px;
+   padding: 6px 18px;
+   opacity: .65;
+background-color: #e4dfe8;;
+border-radius: 20px; 
+
+   font-size: 18px;
+}
+.blogSearch-container{
+    margin-top: 70px;
+}

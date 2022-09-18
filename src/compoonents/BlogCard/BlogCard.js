@@ -3,7 +3,7 @@ import React from 'react';
 const BlogCard = (props) => {
 
     return (
-        <div class="col-md-4">
+        <div class="mt-4 col-md-4">
             <div class="card">
                 <img src={require('../../images/aurpon-top-banner.jpg')} class="card-img-top" alt="..." />
                 <div class="card-body">
