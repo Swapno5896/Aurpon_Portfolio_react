@@ -1,3 +1,26 @@
+
 .most-famous-blog{
-    height: 447px;
+    padding: 70px;
 }
+
+.photo-frame {
+    width: 443px;
+    height: 500px;
+
+}
+
+.photo img {
+    width: 100%;
+    border-radius: 17px;
+
+}
+
+.photo-detail {
+  
+    width: 419px;
+    position: absolute;
+
+    height: 550px;
+  
+}
+
