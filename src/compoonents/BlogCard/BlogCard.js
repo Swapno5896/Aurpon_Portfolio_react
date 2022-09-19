@@ -1,14 +1,20 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const BlogCard = (props) => {
+    const {id} = props.blog
+    const navigate = useNavigate()
+    const showDetailBlog = () =>{
+        navigate(`/blog/${id}`)
+    }
 
     return (
-        <div class="mt-4 col-md-4">
-            <div class="card">
-                <img src={require('../../images/aurpon-top-banner.jpg')} class="card-img-top" alt="..." />
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <div onClick={showDetailBlog} className="mt-4 col-md-4">
+            <div className="card">
+                <img src={require('../../images/aurpon-top-banner.jpg')} className="card-img-top" alt="..." />
+                <div className="card-body">
+                    <h5 className="card-title">Card title</h5>
+                    <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 </div>
             </div>
 

@@ -8,7 +8,7 @@ import NotFoound from './pages/NotFoound/NotFoound';
 import About from './pages/About/About';
 import Videos from './pages/Videos/Videos';
 import Footer from './compoonents/Footer/Footer';
-
+import DetailBlog from './compoonents/DetailBlog/DetailBlog'
 function App() {
   return (
     <div className="App">
@@ -16,7 +16,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home></Home>} />
         <Route path='/blogs' element={<Blogs></Blogs>} />
-        <Route path='/blog/:blogId' element={<Home></Home>} />
+        <Route path='/blog/:blogId' element={<DetailBlog></DetailBlog>} />
         <Route path='/about' element={<About></About>} />
         <Route path='/videos' element={<Videos></Videos>} />
         <Route path='*' element={<NotFoound></NotFoound>} />
