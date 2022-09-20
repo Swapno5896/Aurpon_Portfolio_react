@@ -4,7 +4,7 @@ const BlogSearch = () => {
     return (
         <div className='container blogSearch-container'>
             {/* <input className='blogSearch-input form-control ' se type="text" placeholder="Search Blog" aria-label="default input example"></input> */}
-            <input className='blogSearch-input' type="text" size="70"/>
+            <input className='blogSearch-input' placeholder='Type To Search' type="text" size="70"/>
             <div className="serch-options">
                 <button>All <span>10</span></button>
                 <button>IELTS<span>3</span></button>
