@@ -7,7 +7,7 @@ const SmallContact = () => {
                 <div className="col-md-6 col-sm-12">
                     <img className='SmallContact-img' src={require('../../images/contect_creation.webp')} alt="" />
                 </div>
-                <div className="col-md-5 col-sm-12 SmallContact-text d-flex align-items-center">
+                <div className="col-md-6 col-sm-12 SmallContact-text d-flex align-items-center">
                     <div>
                     <h2>Content Creation To Help Other's</h2>
                     <p>University Admissions, Career guidance and a touch of vlogging- I love to help my massive following in every way possible.

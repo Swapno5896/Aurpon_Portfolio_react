@@ -13,15 +13,15 @@ const SpecialBlog = (props) => {
   return (
     <div className="container">
       <h2 className='most-famous-blog'>Most Famous Blogs</h2>
-      <div className="row">
+      <div className="row d-flex justify-content-center">
         <div onClick={()=>showDetailBlog(firstBlog.id) }  className="col-md-6 col-sm-12 photo-frame">
          <div className='photo'>
           <img src={require('../../images/invictus.png')} alt="" />
          </div>
-         <div className='photo-detail'>
+         {/* <div className='photo-detail'>
           <h3>{firstBlog.title} </h3>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate veniam eligendi sapiente quam expedita alias obcaecati velit eveniet nostrum eos cum eaque repellendus tempore nisi atque quis vitae, est id.</p>
-         </div>
+         </div> */}
         </div>
         <div className="col-md-6 col-sm-12">
           <div onClick={()=>showDetailBlog(secondBlog.id) }  className="card mb-3">

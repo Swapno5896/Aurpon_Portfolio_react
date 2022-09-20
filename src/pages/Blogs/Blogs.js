@@ -25,6 +25,7 @@ const Blogs = () => {
             <SpecialBlog specialBlog={specialBlog} ></SpecialBlog>
             <BlogSearch></BlogSearch>
             <div className="container">
+                <p className='recent-blogs'>Recent Blogs</p>
                 <div className="row">
                     {
                         blogs.map(blog => <BlogCard

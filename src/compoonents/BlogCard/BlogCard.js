@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-
+import './BlogCard.css'
 const BlogCard = (props) => {
     const {id} = props.blog
     const navigate = useNavigate()
@@ -9,8 +9,8 @@ const BlogCard = (props) => {
     }
 
     return (
-        <div onClick={showDetailBlog} className="mt-4 col-md-4">
-            <div className="card">
+        <div onClick={showDetailBlog} className="blog-card-container mt-4 col-md-4">
+            <div className="card blog-card">
                 <img src={require('../../images/aurpon-top-banner.jpg')} className="card-img-top" alt="..." />
                 <div className="card-body">
                     <h5 className="card-title">Card title</h5>

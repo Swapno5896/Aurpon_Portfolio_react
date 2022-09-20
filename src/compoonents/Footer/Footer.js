@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <div className=" footer-container">
             <div className="row">
-                <div className="col-md-4">
+                <div className="col-md-4 footer-aurpon-container">
                     <h2>Aurpon Chowdhury</h2>
                     <p className='pt-3'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur amet quisquam rem. Nulla eaque soluta voluptate, maiores, quia magni totam numquam, explicabo quibusdam accusamus porro suscipit tenetur rerum non reprehenderit?</p>
 

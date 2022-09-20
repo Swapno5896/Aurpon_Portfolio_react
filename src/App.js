@@ -12,7 +12,7 @@ import DetailBlog from './compoonents/DetailBlog/DetailBlog'
 function App() {
   return (
     <div className="App">
-      <Navbar></Navbar>
+      <Navbar></Navbar> 
       <Routes>
         <Route path='/' element={<Home></Home>} />
         <Route path='/blogs' element={<Blogs></Blogs>} />
@@ -22,8 +22,6 @@ function App() {
         <Route path='*' element={<NotFoound></NotFoound>} />
       </Routes>
       <Footer></Footer>
-
-
     </div>
   );
 }

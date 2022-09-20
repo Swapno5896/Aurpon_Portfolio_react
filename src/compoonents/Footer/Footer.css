@@ -3,9 +3,13 @@
     color: aliceblue;
     padding: 40px 5%;
 }
+.footer-aurpon-container{
+    padding-top: 18px;
+}
 .footer-links a{
  display: block;
  text-decoration: none;
+ color: #749ad0;
  font-size: 20px;
  padding: 7px 9px;
  font-weight: 700;
@@ -15,7 +19,7 @@
    
 }
 .footer-img-container img{
-    margin: 2px;
+    margin: 4px;
     width: 82px;
     padding: 5px;
     border-radius: 10px;
@@ -23,4 +27,7 @@
 }
 .footer-location{
     padding: 57px 46px;
+}
+.footer-location p{
+    font-weight: 600;
 }
