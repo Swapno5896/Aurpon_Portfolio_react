@@ -18,9 +18,8 @@ const Home = () => {
                 <div className="row">
                     {
                         blogs.map(blog => <BlogCard
-                            key={blog.id}
-
-                            blog={blog}
+                            key={blog.id}   
+                            blog={blog}     
                         ></BlogCard>)
                     }
                 </div>
