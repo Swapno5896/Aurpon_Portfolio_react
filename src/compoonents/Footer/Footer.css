@@ -5,6 +5,7 @@
 }
 .footer-aurpon-container{
     padding-top: 18px;
+    color: rgb(250, 244, 232);
 }
 .footer-links a{
  display: block;
@@ -27,6 +28,7 @@
 }
 .footer-location{
     padding: 57px 46px;
+    color: rgb(250, 244, 232);
 }
 .footer-location p{
     font-weight: 600;

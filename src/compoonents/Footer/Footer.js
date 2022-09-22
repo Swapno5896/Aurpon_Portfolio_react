@@ -28,7 +28,7 @@ const Footer = () => {
                     <p>0175454545</p>
                 </div>
             </div>
-            <p className="pt-5 text-center fw-semibold">Copyright © 2022 Programming-hero.com</p>
+            <p className="pt-5 text-center fw-semibold">Copyright © 2022 Aurpon Chowdhury</p>
 
         </div>
     );

@@ -1,3 +1,16 @@
+.My-navbar{
+    background-color: rgb(171, 255, 255);
+}
+
+.my-nav-link{
+    font-size: 18px;
+    color: rgb(80, 53, 152) !important;
+}
+
+.my-nav-link:hover{
+  
+    color: rgb(38, 133, 212) !important;
+}
 .Brand_name{
  padding-left: 15%;
  font-size: 30px;
